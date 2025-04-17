@@ -55,7 +55,7 @@ const Form = ({ route, method }) => {
         placeholder="Password"
       />
 
-      {loading && LoadingIndicator}
+      {loading && <LoadingIndicator />}
 
       <button className="form-button" type="submit">
         {name}
